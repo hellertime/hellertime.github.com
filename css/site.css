@@ -1,5 +1,13 @@
+/* modular scale calculated by: http://modularscale.com/scale/?px1=16&px2=112&ra1=1.414&ra2=0 */
+
 body {
+	font-family:		Georgia, Times, "Times New Roman", serif;
+	font-size:		16px;
 	text-align:		center;
+}
+
+p {
+	line-height:		1.415px;
 }
 
 #highlander {
@@ -9,10 +17,23 @@ body {
 }
 
 #branding {
+	font-family:		Arial, "Helvetica Neue", Helvetica, sans-serif;	
 	width:			100%;
 }
 
-#branding h1 {
+#branding div {
 	margin:			0 auto;
-	width:			112px;
+	width:			447.729px;
+}
+
+#branding img {
+	float:			left;
+	margin:			0 1.283em 0 0;
+}
+
+#branding div h1 {
+	font-size:		39.616px;
+	line-height:		56.017px;
+	margin:			0;
+	padding-top:		9.910px;
 }
