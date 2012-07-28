@@ -1,6 +1,8 @@
 /* modular scale calculated by: http://modularscale.com/scale/?px1=16&px2=112&ra1=1.414&ra2=0 */
 
 body {
+	background-color:	#f2f3f4; /* http://en.wikipedia.org/wiki/Anti-flash_white */
+	color:			#6e7f80; /* http://en.wikipedia.org/wiki/List_of_Crayola_colored_pencil_colors#Standard_colors */
 	font-family:		Georgia, Times, "Times New Roman", serif;
 	font-size:		16px;
 	text-align:		center;
@@ -8,6 +10,28 @@ body {
 
 p {
 	line-height:		1.415px;
+}
+
+.out-link {
+	background:		linear-gradient(top, #fff 41%, #f2f3f4 100%);
+	background:		-webkit-linear-gradient(top, #fff 41%, #f2f3f4 100%);
+	border:			3.505px solid #6e7f80;
+	border-radius:		16px;
+	font-size:		14.013px;
+	padding:		5.659px 9.910px;
+	margin:			0 16px 0 5.659px;
+}
+
+a.out-link {
+	color:			#6e7f80;
+}
+
+a.out-link:hover {
+	color:			#ffdc7b;
+}
+
+a.out-link:visited {
+	color:			#f8b600;
 }
 
 #highlander {
@@ -32,8 +56,15 @@ p {
 }
 
 #branding div h1 {
-	font-size:		39.616px;
+	font-size:		31.990px;
 	line-height:		56.017px;
-	margin:			0;
-	padding-top:		9.910px;
+	margin:			0 0 0 127.884px;
+	padding:		0 0 0 19.814px;
+}
+
+#branding div h2 {
+	font-size:		19.814px;
+	line-height:		31.990px;
+	margin:			-0.619em 0 7.008px 127.884px;
+	padding:		0 0 0 19.814px;
 }
