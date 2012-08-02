@@ -15,10 +15,11 @@ p {
 .out-link {
 	border:			3.505px solid #fff;
 	border-radius:		16px;
+	display:		inline-block;
 	font-size:		14.013px;
 	font-weight:		bold;
 	padding:		5.659px 9.910px;
-	margin:			0 16px 0 5.659px;
+	margin:			2.479px 8.002px 0 1.415px;
 }
 
 a.out-link {
@@ -68,4 +69,16 @@ a.out-link:visited {
 	line-height:		31.990px;
 	margin:			-0.619em 0 7.008px 127.884px;
 	padding:		0 0 0 19.814px;
+}
+
+section {
+	text-align:		center;
+	width:			100%;
+}
+
+section article {
+	color:			#ccc;
+	text-align:		left;
+	margin:			0 auto;
+	width:			447.729px;
 }

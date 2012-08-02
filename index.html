@@ -3,4 +3,19 @@ layout: default
 title: "Hellertime: digital hustle"
 ----
 
-<h1>Greetings</h1>
+<section>
+
+{% for post in site.posts %}
+<article>
+
+<header>
+<h1>{{ post.title }}</h1>
+<p>Posted {{ post.date | date: "%B %d, %Y" }}<a href="{{ post.id }}">#</a></p>
+</header>
+
+{{ post.content }}
+
+</article>
+{% endfor %}
+
+</section>
